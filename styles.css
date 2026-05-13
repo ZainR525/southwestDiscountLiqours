@@ -368,6 +368,8 @@ p { margin: 0 0 1em; }
 .hero-badges li {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 6px;
   padding: 0 32px;
   border-right: 1px solid rgba(200, 162, 75, 0.15);
@@ -745,19 +747,6 @@ p { margin: 0 0 1em; }
   font-family: var(--serif);
   font-style: italic;
   font-size: 18px;
-}
-
-.liquor-cta {
-  margin-top: 28px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
-.liquor-cta-note {
-  font-size: 12.5px;
-  letter-spacing: 0.06em;
-  color: rgba(246, 241, 227, 0.55);
 }
 
 /* =========================================================
